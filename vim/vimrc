@@ -1,0 +1,78 @@
+" use vim mode, not vi mode
+set nocompatible
+
+" backspace behavior (:h bs)
+" 2: backspace=indent,eol,start
+set backspace=2
+
+" syntax highlight
+syntax on
+
+" display incomplete commands
+set showcmd
+" show matching parenthese
+set showmatch
+" laststatus 2: always display
+set laststatus=2
+
+" set fileformats(ffs), prefer unix (read format)
+" set fileformat(ff), prefer unix (write format)
+set ffs=unix,mac,dos ff=unix
+
+" history of command line
+set history=512
+
+" do not generate backup file
+" backup and writebackup, :h backup-table
+set nowritebackup
+
+" indent mode: cindent, smartindent, autoindent, indentexpr
+set smartindent
+
+" cmdheight: the height of cmd
+set cmdheight=1
+
+" incremental search
+"set incsearch
+
+" highlight search
+set hlsearch
+
+" word wrap, defaul 0 (will insert EOL)
+" textwidth: from left to right, wrapmargin: from right to left
+"set textwidth=
+"set wrapmargin=
+
+" wrap, default on (will not insert EOL)
+"set wrap
+" wrap won't break word (english) (lbr)
+set linebreak
+
+" set ruler, cursor status in file
+" statusline (stl), ruler format
+set ruler
+" set statusline
+
+" auto indent width (sw)
+set shiftwidth=4
+" tabstop: tab width (ts)
+set tabstop=4
+" softtabstop: soft tab stop (sts) (vim fake tab)
+" press three 'tab' takes the following effect -- (one tab and four spaces)
+set softtabstop=4
+" use space instead of tab
+" Makefile only recognize tab, use ctrl + v + i (ctrl + v tab)
+set expandtab
+
+" modeline (/* vim: set ai ts=4:*/)
+" modlelines the first {modelines} lines or 
+" the end {modelines} lines explained as modeline
+"set modeline
+set modelines=5
+
+" fileencoding and encoding
+set encoding=utf8
+set fileencoding=utf8
+
+" color scheme
+colorscheme desert
