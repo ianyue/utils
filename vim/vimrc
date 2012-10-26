@@ -1,3 +1,4 @@
+" =================== Basic Setting ===================
 " use vim mode, not vi mode
 set nocompatible
 
@@ -76,3 +77,11 @@ set fileencoding=utf8
 
 " color scheme
 colorscheme desert
+
+
+" ==================== Plugin Setting =====================
+
+" MiniBufExpl setting
+
+" NERD Tree setting
+
