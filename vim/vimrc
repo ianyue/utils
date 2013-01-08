@@ -65,6 +65,8 @@ set softtabstop=4
 " Makefile only recognize tab, use ctrl + v + i (ctrl + v tab)
 set expandtab
 
+autocmd FileType make set noexpandtab
+
 " modeline (/* vim: set ai ts=4:*/)
 " modlelines the first {modelines} lines or 
 " the end {modelines} lines explained as modeline
