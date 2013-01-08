@@ -75,7 +75,9 @@ set modelines=5
 
 " fileencoding and encoding
 set encoding=utf8
-set fileencoding=utf8
+"set fileencoding=utf8
+set fileencodings=utf8,chinese
+
 
 " color scheme
 colorscheme desert
